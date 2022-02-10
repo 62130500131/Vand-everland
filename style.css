@@ -1,5 +1,25 @@
 html {
     font-size: calc(60%+0.8vmin);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 navbar{
@@ -375,6 +395,110 @@ navbar li:hover{
         margin-top: 3%;
     }
 
+    .ninth-con{
+        background-color: #565050;
+        display: flex;
+        text-align: center;
+        justify-items: center;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 0;
+    }
+
+    .ninth-con .top{
+        margin-top:0;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        left: 5%;
+        padding-top: 5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        background-color: white;
+        width: 20%;
+        padding-bottom: 7%;
+        border: #565050;
+        border-style: solid;
+        font-size: 0.75rem;
+    }
+
+    .ninth-con .top .f{
+        width: 12%;
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: auto;
+    }
+
+    .ninth-con .mid{
+        margin-top: 3%;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        color: white;
+    }
+
+    .ninth-con .mid ul{
+        margin-left: auto;
+        margin: 0%;
+        width: auto;
+    }
+
+    .ninth-con .mid li{
+        margin-top: 10%;
+    }
+
+
+    .ninth-con .bot{
+        color: white;
+        margin-top: 3%;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    .ninth-con .bot span{
+        width: auto;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    .ninth-con .top p{
+        font-size: 0.9rem;
+    }
+
+    
+
+    .ninth-con .bot img{
+        margin-right: 3%;
+        width: 10%;
+        height: 10%;
+        align-self: top;
+        margin-top: 5%;
+    }
+
+    footer {
+        background-color: #494343;
+        width: 100%;
+    }
+
+    footer p{
+        margin: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left :15%;
+        color: white;
+    }
+
+    
+
+    
+
     
     
 
@@ -535,6 +659,41 @@ navbar li:hover{
         font-size: 0.6rem;
     }
 
+    .ninth-con{
+        display: grid;
+    }
+
+    .ninth-con .top{
+        width: auto;
+    }
+
+    .ninth-con .mid{
+        width: 100%;
+    }
+
+    .ninth-con .bot{
+        width: 100%;
+    }
+
+    .ninth-con .logo{
+        width: 12%;
+        height: auto;
+    }
+
+    .ninth-con .top .f{
+        width: 5%;
+    }
+
+    .ninth-con .bot img{
+        
+        width: 2rem;
+        
+        align-self: top;
+        margin-top: 3%;
+    }
+
+    
+
 }
 
 @media screen and (max-width: 600px){
@@ -685,8 +844,37 @@ navbar li:hover{
         font-size: 0.4rem;
     }
 
+    .ninth-con .logo{
+        width: 15%;
+        height: auto;
+    }
 
+    .ninth-con .top .f{
+        width: 7%;
+    }
 
+    .ninth-con .bot img{
+        margin-top: 2%;
+        width: 1rem;
+    }
+    .ninth-con .bot p{
+        font-size: 0.5rem;
+    }
+
+    .ninth-con .mid li{
+        font-size: 0.7rem;
+    }
+    .ninth-con .mid h1{
+        font-size: 1.5rem;
+    }
+    .ninth-con .bot h1{
+        font-size: 1.5rem;
+    }
+
+    footer p{
+        font-size: 0.7rem;
+        padding-left: 0;
+    }
     
     
     
